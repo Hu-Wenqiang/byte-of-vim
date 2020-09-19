@@ -100,7 +100,7 @@ Notice how the upper and lower case 'o' commands are opposite in the direction i
 
 Was there something wrong in the text that we just wrote? Aah, it should be 'dapper', not 'rapper'! It's a single character that we have to change, what's the most efficient way to make this change?
 
-We could press `i` to switch to insert mode, press `<Del>` key to delete the `r`, type `d` and then press `<Esc>` to switch back to the insert mode. But that is four steps for such a simple change! Is there something better? You can use the `s` key - s for 's'ubstitute.
+We could press `i` to switch to insert mode, press `<Del>` key to delete the `r`, type `d` and then press `<Esc>` to switch back to the normal mode. But that is four steps for such a simple change! Is there something better? You can use the `s` key - s for 's'ubstitute.
 
 1. Move the cursor to the character `r` (or simply press `b` to move 'b'ack to the start of the word)
 2. Press `s`
